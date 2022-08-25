@@ -1,0 +1,2 @@
+C:\Users\Averaham\source\repos\sharon-pain-clinics\AngularSPA\obj\Debug\AngularSPA.esproj.SuggestedBindingRedirects.cache
+C:\Users\Averaham\source\repos\sharon-pain-clinics\AngularSPA\obj\Debug\AngularSPA.esproj.CoreCompileInputs.cache
