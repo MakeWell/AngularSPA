@@ -10,12 +10,13 @@ export class AppComponent {
   public forecasts?: WeatherForecast[];
 
   constructor(http: HttpClient) {
-    http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
-      this.forecasts = result;
-    }, error => console.error(error));
+    http
+      .get<WeatherForecast[]>('/weatherforecast')
+      .subscribe(result =>
+        { this.forecasts = result; },
+        error => console.error(error));
   }
-
-  title = 'AngularSPA';
+  title = 'מרםאת כאב';
 }
 
 interface WeatherForecast {
